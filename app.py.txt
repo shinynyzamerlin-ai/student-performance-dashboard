@@ -1,0 +1,20 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Read dataset
+df = pd.read_csv("data.csv")
+
+# Calculate average
+df["Average"] = (df["Math"] + df["Science"] + df["English"]) / 3
+
+# Display dataset
+print(df)
+
+# Create bar chart
+plt.bar(df["Name"], df["Average"])
+
+plt.xlabel("Students")
+plt.ylabel("Average Marks")
+plt.title("Student Performance Dashboard")
+
+plt.show()

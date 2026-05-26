@@ -1,0 +1,6 @@
+Name,Math,Science,English
+Arun,85,78,90
+Meena,92,88,84
+Kiran,70,75,80
+John,60,65,70
+Priya,95,92,96
